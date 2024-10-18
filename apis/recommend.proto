@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package recommend.server;
+
+option go_package = "apis/";
+option java_multiple_files = true;
+option java_package = "io.grpc.recommend.server";
+option java_outer_classname = "RecommendServer";
+option objc_class_prefix = "HLW";
+
+service Recommender {
+  rpc RecommendServer (UserRequest) returns (NoteResponse);
+}
+
+message UserRequest {
+  string userId = 1;
+  map<string, string> args = 2;
+}
+
+message NoteList {
+  string tabName = 1;
+  repeated uint64 rList = 2;
+  int32 size = 3;
+}
+
+message NoteResponse {
+  string version = 1;
+  NoteList noteIds = 2;
+}

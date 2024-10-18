@@ -1,0 +1,5 @@
+scheme: http
+nacos_addr: 127.0.0.1
+service_port: 8848
+client_port: 10010
+service_name: recommend-server
