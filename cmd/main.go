@@ -3,17 +3,17 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gitlab.com/cher8/lion/common/sd"
-	readYaml "gitlab.com/cher8/lion/common/yaml"
 	"google.golang.org/grpc"
 	"gopkg.in/yaml.v2"
+	"grs/apis"
+	"grs/conf"
+	"grs/internal"
+	"grs/internal/common/sd"
+	readYaml "grs/internal/common/yaml"
 	"log"
 	"net"
 	"os"
 	"os/signal"
-	"recommend-server/apis"
-	"recommend-server/conf"
-	"recommend-server/internal"
 	"syscall"
 )
 

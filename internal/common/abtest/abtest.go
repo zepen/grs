@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/spaolacci/murmur3"
-	"recommend-server/internal/common/middleware"
+	"grs/internal/common/middleware"
 )
 
 type ExpConfig struct {

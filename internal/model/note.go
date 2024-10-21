@@ -2,9 +2,9 @@ package model
 
 import (
 	"context"
-	"gitlab.com/cher8/lion/common/abtest"
-	"gitlab.com/cher8/lion/common/ilog"
-	"gitlab.com/cher8/lion/common/middleware"
+	"grs/internal/common/abtest"
+	"grs/internal/common/ilog"
+	"grs/internal/common/middleware"
 	"strings"
 )
 

@@ -3,11 +3,11 @@ package monitor
 import (
 	"context"
 	"fmt"
-	"gitlab.com/cher8/lion/common/robot"
-	"gitlab.com/cher8/lion/common/util"
+	"grs/internal/common/robot"
+	"grs/internal/common/util"
+	"grs/internal/dump"
+	"grs/internal/index"
 	"os"
-	"recommend-server/internal/dump"
-	"recommend-server/internal/index"
 	"time"
 )
 

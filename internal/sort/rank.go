@@ -3,11 +3,11 @@ package sort
 //粗排
 import (
 	"context"
-	"gitlab.com/cher8/lion/common/ilog"
 	"google.golang.org/grpc"
+	"grs/internal/common/ilog"
+	"grs/internal/model"
+	"grs/internal/sort/estimate"
 	"math/rand"
-	"recommend-server/internal/model"
-	"recommend-server/internal/sort/estimate"
 	"sort"
 	"time"
 )
@@ -106,7 +106,11 @@ func estimateScore(req *model.NoteReqContext, noteList []*model.Note) {
 				sort.Slice(noteList, CoarserScoreSortFunc)
 			}
 		}
-		defer conn.Close()
+		defer func(conn *grpc.ClientConn) {
+			err := conn.Close()
+			if err != nil {
+			}
+		}(conn)
 	} else {
 		coarseLinerScore(req, noteList)
 	}

@@ -2,9 +2,9 @@ package sort
 
 import (
 	"context"
-	"gitlab.com/cher8/lion/common/ilog"
-	"recommend-server/conf"
-	"recommend-server/internal/model"
+	"grs/conf"
+	"grs/internal/common/ilog"
+	"grs/internal/model"
 	"strconv"
 )
 

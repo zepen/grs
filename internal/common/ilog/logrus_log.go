@@ -5,8 +5,8 @@ import (
 	"github.com/lestrrat-go/file-rotatelogs"
 	"github.com/opensearch-project/opensearch-go"
 	"github.com/sirupsen/logrus"
-	"recommend-server/internal/common/ilog/eshook"
-	"recommend-server/internal/common/ilog/lfshook"
+	"grs/internal/common/ilog/eshook"
+	"grs/internal/common/ilog/lfshook"
 	"time"
 )
 

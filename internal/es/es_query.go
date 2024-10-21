@@ -2,7 +2,7 @@ package es
 
 import (
 	"fmt"
-	"gitlab.com/cher8/lion/common/ilog"
+	"grs/internal/common/ilog"
 	"strings"
 )
 

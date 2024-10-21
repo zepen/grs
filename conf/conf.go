@@ -2,10 +2,10 @@ package conf
 
 import (
 	"fmt"
-	"gitlab.com/cher8/lion/common/ilog"
-	"gitlab.com/cher8/lion/common/middleware"
-	"gitlab.com/cher8/lion/common/robot"
-	"gitlab.com/cher8/lion/common/sd"
+	"grs/internal/common/ilog"
+	"grs/internal/common/middleware"
+	"grs/internal/common/robot"
+	"grs/internal/common/sd"
 	//"runtime/trace"
 )
 

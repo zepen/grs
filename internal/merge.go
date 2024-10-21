@@ -2,9 +2,9 @@ package internal
 
 import (
 	"context"
+	"grs/conf"
+	"grs/internal/model"
 	"math"
-	"recommend-server/conf"
-	"recommend-server/internal/model"
 	"time"
 )
 

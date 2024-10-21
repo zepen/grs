@@ -1,9 +1,9 @@
 package recall
 
 import (
-	"gitlab.com/cher8/lion/common/ilog"
-	"recommend-server/internal/index"
-	"recommend-server/internal/model"
+	"grs/internal/common/ilog"
+	"grs/internal/index"
+	"grs/internal/model"
 	"strings"
 	"time"
 )

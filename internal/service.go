@@ -3,9 +3,9 @@ package internal
 import (
 	"context"
 	"fmt"
-	"gitlab.com/cher8/lion/common/sd"
-	"recommend-server/apis"
-	"recommend-server/conf"
+	"grs/apis"
+	"grs/conf"
+	"grs/internal/common/sd"
 	"time"
 )
 

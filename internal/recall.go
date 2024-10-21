@@ -2,12 +2,12 @@ package internal
 
 import (
 	"context"
-	"gitlab.com/cher8/lion/common/ilog"
-	"gitlab.com/cher8/lion/common/middleware"
-	"gitlab.com/cher8/lion/common/util"
+	"grs/internal/common/ilog"
+	"grs/internal/common/middleware"
+	"grs/internal/common/util"
+	"grs/internal/model"
+	"grs/internal/recall"
 	"os"
-	"recommend-server/internal/model"
-	"recommend-server/internal/recall"
 	"strconv"
 	"strings"
 )

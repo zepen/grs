@@ -6,7 +6,7 @@ import (
 	"github.com/opensearch-project/opensearch-go"
 	"github.com/opensearch-project/opensearch-go/opensearchapi"
 	"github.com/sirupsen/logrus"
-	"recommend-server/internal/common/util"
+	"grs/internal/common/util"
 	"strings"
 )
 

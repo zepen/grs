@@ -5,9 +5,9 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/v2/clients"
 	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/v2/vo"
+	"grs/internal/common/sd"
 	"io/ioutil"
 	"path/filepath"
-	"recommend-server/internal/common/sd"
 	"strconv"
 	"strings"
 )

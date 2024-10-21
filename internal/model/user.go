@@ -2,10 +2,10 @@ package model
 
 import (
 	"context"
-	"gitlab.com/cher8/lion/common/ilog"
-	"gitlab.com/cher8/lion/common/middleware"
-	"gitlab.com/cher8/lion/common/util"
-	"recommend-server/apis"
+	"grs/apis"
+	"grs/internal/common/ilog"
+	"grs/internal/common/middleware"
+	"grs/internal/common/util"
 	"strings"
 )
 
