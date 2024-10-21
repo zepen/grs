@@ -7,8 +7,6 @@ if [ ! -n "$env" ];then
 fi
 export REC_ENV="$env"
 git pull origin main
-#chmod 600 ~/.ssh/id_rsa.pub && eval "$(ssh-agent -s)"
-#ssh-add ~/.ssh/id_rsa.pub
 export GOPROXY=https://goproxy.cn
 export GOPRIVATE=
 echo "GOPROXY="$GOPROXY
